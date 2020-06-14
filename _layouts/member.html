@@ -79,7 +79,9 @@
         {% if page.id == member.url  %}
         {% for people in member.members %}
             <div class="row">
+                {% if people.photo %}
                 <img src="{{people.photo}}" style="float:left" class=" col-4">
+                {% endif%}
                 <div class="pane-content col-8">
                     <h3>{{people.name}}</h3>
                     <p>{{people.email}}

@@ -1,70 +1,40 @@
 - name: Undergraduate
   url: undergraduate
-  members:
-  - name: ud
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
-
-  - name: ud
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
 
 
 - name: Postgraduate
   url: postgraduate
   members:
-  - name: post
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
-
-  - name: cwy
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
+  - name: Yiming Peng
+    email:
 
 
-- name: Postdoctor
+- name: Postdoctoral
   url: postdoctor
   members:
-  - name: Postdoctor
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
+  - name: Lie-Meng Pang
+    email: panglm@sustech.edu.cn
+    photo: http://faculty.sustech.edu.cn/wp-content/uploads/2018/05/2018050317253951.png
 
-  - name: cwy
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
+
 
 
 - name: Research Assistant
   url: research_assistant
-  members:
-  - name: ra
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
-
-  - name: ra
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
 
 
 - name: Research Assistant Professor
   url: research_assistant_professor
   members:
-  - name: rap
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
+  - name: 张晋媛
+    email: zhangjy0719@gmail.com
+    photo: http://faculty.sustech.edu.cn/wp-content/uploads/2019/10/2019103016035325.png
 
-  - name: rap
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
+  - name: Ke Shang
+    email: kshang@foxmail.com
+    photo: http://faculty.sustech.edu.cn/wp-content/uploads/2018/05/2018050314171061.png
 
 
 - name: Past members
   url: past_members
-  members:
-  - name: past
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
 
-  - name: past
-    email: 117119xx@mail.sustech.edu.cn
-    photo: /img/TBD.jpg
