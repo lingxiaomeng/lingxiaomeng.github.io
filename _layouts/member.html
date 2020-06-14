@@ -54,9 +54,71 @@
     </header>
 
     <div class="container">
+<div class="row">
+    <div class="col-5" id="sidebar">
+        <div class="sidebar-header" >
+            <h3>People</h3>
+        </div>
 
-        {{ content }}
+        <div class="list-unstyled components">
+            <nav role="navigation" aria-label="Main navigation">
+                <ul class="list-unstyled components">
+                    {% for member in site.data.members %}
+                    {% if page.id == member.url  %}
+                    <li class="active"><a href="/member/{{member.url}}" class="navigation-list-link active">{{member.name}}</a></li>
+                    {% else %}
+                    <li class=""><a href="/member/{{member.url}}" class="navigation-list-link">{{member.name}}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="col-7">
+        {% for member in site.data.members %}
+        {% if page.id == member.url  %}
+        {% for people in member.members %}
+            <div class="row">
+                <img src="{{people.photo}}" style="float:left" class=" col-4">
+                <div class="pane-content col-8">
+                    <h3>{{people.name}}</h3>
+                    <p>{{people.email}}
+                    </p>
+                </div>
+            </div>
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
 
+<!--        <div class="row">-->
+<!--            <img src="/img/TBD.jpg" style="float:left" class=" col-4">-->
+<!--            <div class="pane-content col-8">-->
+<!--                <h3>CWY</h3>-->
+<!--                <p>117119xx@mail.sustech.edu.cn-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--            <img src="/img/TBD.jpg" style="float:left" class=" col-4">-->
+<!--            <div class="pane-content col-8">-->
+<!--                <h3>CWY</h3>-->
+<!--                <p>117119xx@mail.sustech.edu.cn-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--            <img src="/img/TBD.jpg" style="float:left" class=" col-4">-->
+<!--            <div class="pane-content col-8">-->
+<!--                <h3>CWY</h3>-->
+<!--                <p>117119xx@mail.sustech.edu.cn-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+
+    </div>
+</div>
     </div>
 
 
